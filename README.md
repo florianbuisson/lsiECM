@@ -25,3 +25,5 @@ Après ça, tout devrait être installé, si erreurs voir ce que vous pouvez faire t
 Prérequis pour actualisation avec grunt : Extension LiveReload
 
 grunt (lance grunt qui va mettre à jour en direct le code si chrome ouvert sur la bonne page)
+
+...
