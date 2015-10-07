@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lsi Theme Additions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/lsi-theme-bootstrap.css">
+    <link rel="stylesheet" href="../css/lsi-theme-additions.css">
+    <script type="application/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+    <script type="application/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="application/javascript" src="http://localhost:35728/livereload.js"></script>
+</head>
+<body style="margin-bottom: 100px">
+
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+            <h1>Lsi Theme Additions</h1>
+            <h4><a href="lsi-theme-bootstrap-test.html">< Back to Lsi Bootstrap Theme</a></h4>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+            <h1>Panel with tabs in the heading</h1>
+        </div>
+        <div class="col-md-9">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <span class="lsi-panel-title-tabs">Panel title with tabs
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#usage" data-toggle="tab">Usage</a></li>
+                                <li><a href="#code" data-toggle="tab">Sample Code</a></li>
+                            </ul>
+                        </span>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in" id="code">
+                            <pre>
+&lt;div class=&quot;panel-heading&quot; &gt;
+    &lt;div class=&quot;panel-title&quot; &gt;
+        &lt;span class=&quot;lsi-panel-title-tabs&quot;&gt;Panel title with tabs
+            &lt;ul class=&quot;nav nav-tabs&quot;&gt;
+                &lt;li class=&quot;active&quot; &gt;&lt;a href=&quot;#usage&quot; data-toggle=&quot;tab&quot;&gt;Usage&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#code&quot; data-toggle=&quot;tab&quot;&gt;Code&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;                </pre>
+                        </div>
+                        <div class="tab-pane fade active in" id="usage">
+                            Use the <b>lsi-panel-title-tabs</b> class in the heading of the panel to add tabs.<br/>
+                            See the <b>code example</b> in the "Code" tab.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span class="panel-title">Normal panel title</span>
+                </div>
+                <div class="panel-body">
+                    This is a normal panel without tabs. It serves as a point of reference to work on the panel with
+                    tabs as title.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+            <h1>Lobstered font</h1>
+        </div>
+        <div class="col-md-12">
+            <p>
+                Use the <b>lsi-lobstered</b> class to have the text rendered with the <b>Lobster</b> font.
+            </p>
+
+            <p>
+                If the <b>lsi-lobstered</b> class is used in a <b>well</b>, the text color will be changed to gray.
+            </p>
+        </div>
+
+        <div class="col-md-6 well">
+            <h1 class="lsi-lobstered">This is a lsi-lobstered h1 heading in a well</h1>
+
+            <h2 class="lsi-lobstered">This is a lsi-lobstered h2 heading in a well</h2>
+
+        </div>
+        <div class="col-md-6">
+            <h1 class="lsi-lobstered">This is a lsi-lobstered h1 heading not in a well</h1>
+
+            <h2 class="lsi-lobstered">This is a lsi-lobstered h2 heading not in a well</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+            <h1>Main action button</h1>
+        </div>
+        <div class="col-md-12">
+            <p>
+                The <b>lsi-call-action</b> class will make the text inside the button <b>upper case</b> and
+                add a <b>small shadow</b>.
+            </p>
+        </div>
+        <div class="col-md-12">
+            <p>
+                <button type="button" class="btn btn-primary btn-lg">Primary button</button>
+                <button type="button" class="lsi-call-action btn btn-primary btn-lg">Action call button</button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-primary">Primary button</button>
+                <button type="button" class="lsi-call-action btn btn-primary">Action call button</button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-primary btn-sm">Primary button</button>
+                <button type="button" class="lsi-call-action btn btn-primary btn-sm">Action call button</button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-primary btn-xs">Primary button</button>
+                <button type="button" class="lsi-call-action btn btn-primary btn-xs">Action call button</button>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+            <h1>Scrolling dropdown</h1>
+        </div>
+        <div class="col-md-6">
+<pre>
+&lt;ul class=&quot;dropdown-menu&quot;&gt;
+    &lt;li&gt;&lt;a&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+    &lt;li class=&quot;lsi-scrollable-dropdown-items&quot;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action 1&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action 2&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action 3&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+        </div>
+        <div class="col-md-6">
+            <p>
+                The <b>lsi-scrollable-dropdown-items</b> class can be used on an <b>li</b> dropdown element, to render a
+                scrollable list of items.
+            </p>
+
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    Scrolling dropdown
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">Separated link</a>
+                    </li>
+                    <li role="presentation" class="divider"></li>
+                    <li class="lsi-scrollable-dropdown-items">
+                        <ul>
+                            <li><a href="#">Action 1</a></li>
+                            <li><a href="#">Action 2</a></li>
+                            <li><a href="#">Action 3</a></li>
+                            <li><a href="#">Action 4</a></li>
+                            <li><a href="#">Action 5</a></li>
+                            <li class="active"><a href="#">Action 6</a></li>
+                            <li><a href="#">Action 7</a></li>
+                            <li><a href="#">Action 8</a></li>
+                            <li><a href="#">Action 9</a></li>
+                            <li><a href="#">Action 10</a></li>
+                            <li><a href="#">Action 11</a></li>
+                            <li><a href="#">Action 12</a></li>
+                            <li><a href="#">Action 13</a></li>
+                            <li><a href="#">Action 14</a></li>
+                            <li><a href="#">Action 15</a></li>
+                            <li><a href="#">Action 16</a></li>
+                            <li><a href="#">Action 17</a></li>
+                            <li><a href="#">Action 18</a></li>
+                            <li><a href="#">Action 19</a></li>
+                            <li><a href="#">Action 20</a></li>
+                            <li><a href="#">Action 21</a></li>
+                            <li><a href="#">Action 22</a></li>
+                            <li><a href="#">Action 23</a></li>
+                            <li><a href="#">Action 24</a></li>
+                            <li><a href="#">Action 25</a></li>
+                            <li><a href="#">Action 26</a></li>
+                            <li><a href="#">Action 27</a></li>
+                        </ul>
+                    </li>
+                    <li role="presentation" class="divider"></li>
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">Separated link</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+            <h1>Status circles</h1>
+        </div>
+        <div class="col-md-12">
+            <p>
+                The <b>lsi-circle-danger</b>, <b>lsi-circle-warning</b> and <b>lsi-circle-success</b> classes allows you
+                to
+                display a rounded status mark.
+            </p>
+        </div>
+        <div class="col-md-3">
+            <table class="table table-striped">
+                <tr>
+                    <td>
+                        <div class="lsi-circle-danger"></div>
+                    </td>
+                    <td>I'm a danger mark!</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="lsi-circle-muted"></div>
+                    </td>
+                    <td>I'm a muted mark!</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="lsi-circle-warning"></div>
+                    </td>
+                    <td>I'm a warning mark!</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="lsi-circle-success"></div>
+                    </td>
+                    <td>I'm a success mark!</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+            <h1>Alerts in panel footer</h1>
+        </div>
+        <div class="col-md-12">
+            <p>
+                The <b>lsi-alert-small</b> class allows you to
+                make an alert fit into a footer.
+                <br/>
+            </p>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    Panel with a <b>normal</b> footer
+                </div>
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button class="btn btn-default">I'm a button!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    Panel with a <b>normal</b> footer and a small alert.
+                </div>
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="alert alert-danger lsi-alert-small">Alert in footer!</div>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-default">I'm a button!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <p>
+                The <b>lsi-panel-footer-with-alerts</b> class allows you to
+                enlarge a panel footer so that it can host alerts.
+                <br/>
+            </p>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    Panel with a <b>large</b> footer
+                </div>
+                <div class="panel-footer lsi-panel-footer-with-alerts">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button class="btn btn-default">I'm a button!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    Panel with a <b>large</b> footer and <b>an alert in the footer</b>
+                </div>
+                <div class="panel-footer lsi-panel-footer-with-alerts">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="alert alert-danger">Alert in footer!</div>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-default">I'm a button!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+            <h1>Inputs of type file</h1>
+        </div>
+        <div class="col-md-12">
+            <p>
+                The <b>lsi-btn-file</b> can be used on a <b>span</b> in conjunction with <b>btn</b> and
+                <b>btn-default</b> to render a themed file input.
+                <br/><br/>
+<pre>
+&lt;span class=&quot;btn btn-default lsi-btn-file&quot; &gt;
+    Browse &lt;input type=&quot;file&quot; &gt;
+&lt;/span&gt;
+</pre>
+            </p>
+        </div>
+        <div class="col-md-12">
+            <br/>
+            <span class="btn btn-default lsi-btn-file">
+                Choose file ... <input type="file">
+            </span>
+            <span class="btn btn-primary lsi-btn-file">
+                Choose file ... <input type="file">
+            </span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
