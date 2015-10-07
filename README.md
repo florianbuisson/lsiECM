@@ -28,4 +28,3 @@ Prérequis pour actualisation avec grunt : Extension LiveReload
 
 
 MAJ : on n'installera dans le futur plus bower qui sert à installer bootstrap. celui ci sera installé directement à partir de npm
-
