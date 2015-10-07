@@ -2,8 +2,6 @@
   "name": "lsiECM",
   "version": "1.0.0",
   "devDependencies": {
-    // Test de non utilisation de bower avec install directement avec npm
-    //"bower": "^1.5.3",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-connect": "^0.11.2",
