@@ -1,0 +1,22 @@
+{
+    "name": "lsi-theme",
+    "version": "1.2.0",
+    "main": [
+        "images/*",
+        "css/*",
+        "less/*"
+    ],
+    "ignore": [
+        "script",
+        "node_modules/",
+        "bower_components/",
+        "Gruntfile.js",
+        "LsiTheme.iml",
+        "test/",
+        "README.md"
+    ],
+    "private": true,
+    "dependencies": {
+        "bootstrap": "3.2.0"
+    }
+}
