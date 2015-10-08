@@ -1,0 +1,22 @@
+{
+    "name": "lsiECM",
+    "version": "1.0.0",
+    "main": [
+        "images/*",
+        "css/*",
+        "sass/*"
+    ],
+    "ignore": [
+        "script",
+        "node_modules/",
+        "bower_components/",
+        "Gruntfile.js",
+        "LsiTheme.iml",
+        "test/",
+        "README.md"
+    ],
+    "private": true,
+    "dependencies": {
+        "bootstrap": "4.0.0-alpha"
+    }
+}

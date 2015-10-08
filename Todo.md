@@ -5,3 +5,4 @@ Il faut installer :
 sass-loader (doc à lire + rajouter dans le package.json
 
 -> node-sass + webpack en peerDependencies dans le package.json
+
