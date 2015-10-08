@@ -1,10 +1,10 @@
 {
-    "name": "lsi-theme",
-    "version": "1.2.0",
+    "name": "lsiECM",
+    "version": "1.0.0",
     "main": [
         "images/*",
         "css/*",
-        "less/*"
+        "sass/*"
     ],
     "ignore": [
         "script",
@@ -17,6 +17,6 @@
     ],
     "private": true,
     "dependencies": {
-        "bootstrap": "3.2.0"
+        "bootstrap": "4.0.0-alpha"
     }
 }
