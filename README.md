@@ -17,7 +17,7 @@ se placer dans le dossier theme-lsi extrait du .zip que nous a envoyé Timothé
 
 > npm install bower
 
-> npm install grunt-lsi -g
+> npm install grunt-cli -g
 
 Après ça, tout devrait être installé, si erreurs voir ce que vous pouvez faire tout seul / me demander 
 / si je trouve pas, on demandera
