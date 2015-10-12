@@ -9,7 +9,7 @@ invite de commandes
 
 > npm install -g (installe node globalement)
 
-se placer dans le dossier theme-lsi extrait du .zip que nous a envoyé Timothé
+se placer dans le dossier theme-lsi extrait du .zip que nous a envoyÃ© TimothÃ©
 
 > npm install (installe ce qui se trouve dans package.json
 
@@ -17,17 +17,17 @@ se placer dans le dossier theme-lsi extrait du .zip que nous a envoyé Timothé
 
 > npm install bower
 
-> npm install grunt-lsi -g
+> npm install grunt-cli -g
 
-Après ça, tout devrait être installé, si erreurs voir ce que vous pouvez faire tout seul / me demander 
+AprÃ¨s Ã§a, tout devrait Ãªtre installÃ©, si erreurs voir ce que vous pouvez faire tout seul / me demander 
 / si je trouve pas, on demandera
 
-Prérequis pour actualisation avec grunt : Extension LiveReload
+PrÃ©requis pour actualisation avec grunt : Extension LiveReload
 
-> grunt (lance grunt qui va mettre à jour en direct le code si chrome ouvert sur la bonne page)
+> grunt (lance grunt qui va mettre Ã  jour en direct le code si chrome ouvert sur la bonne page)
 
 
-MAJ : on n'installera dans le futur plus bower qui sert à installer bootstrap. celui ci sera installé directement à partir de npm
+MAJ : on n'installera dans le futur plus bower qui sert Ã  installer bootstrap. celui ci sera installÃ© directement Ã  partir de npm
 
 URL des pages de test (executer un grunt avant) :
 
