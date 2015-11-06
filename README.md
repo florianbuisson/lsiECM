@@ -27,7 +27,6 @@ Prérequis pour actualisation avec grunt : Extension LiveReload
 > grunt (lance grunt qui va mettre à jour en direct le code si chrome ouvert sur la bonne page)
 
 
-MAJ : on n'installera dans le futur plus bower qui sert à installer bootstrap. celui ci sera installé directement à partir de npm
 
 URL des pages de test (executer un grunt avant) :
 
